@@ -1,0 +1,62 @@
+/* BURGER MENU */
+.hidden {
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+#menuknap {
+    display: inline-block;
+    color: #8E8E8E;
+    font-family: 'Raleway', sans-serif;
+}
+
+header nav a:link {
+    color: #8E8E8E;
+}
+
+header nav a:visited {
+    color: #ed0303;
+}
+
+header nav a:hover {
+    color: rgb(221, 0, 0);
+    background-color: rgba(142, 142, 142, 0.52);
+}
+
+
+header {}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 1rem 1.9rem;
+
+}
+
+header li {
+    margin: 0 0.6rem 0 0.6rem;
+}
+
+a {
+    color: #8E8E8E;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8125rem;
+
+
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform .3s;
+    transform-origin: top left;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+/* BURGER MENU SLUT */
