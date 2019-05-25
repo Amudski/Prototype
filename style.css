@@ -18,6 +18,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+
 }
 
 .flexwrapper {
@@ -51,7 +52,7 @@ body {
 
 /* ---------------------Forside wrappers slut--------------------- */
 
-/* ---------------------BURGER MENU--------------------- */
+/* ---------------------BURGER MENU OG HEADER / NAV--------------------- */
 .hidden {
     transform: translateX(100%);
     opacity: 0;
@@ -130,4 +131,30 @@ a {
 }
 
 
-/* ---------------------BURGER MENU SLUT--------------------- */
+/* ---------------------BURGER MENU OG HEADER / NAV SLUT--------------------- */
+/* ---------------------LOGIN HEADER START--------------------- */
+#headerlogin {
+    background-color: #EA5045;
+    width: 100%;
+
+    margin-right: 5px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#navlogin {
+    background-color: #EA5045;
+    color: white;
+    font-size: 3rem;
+    padding: 50px;
+}
+
+#sectionwrapperlogin {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: blue;
+
+}
+/* ---------------------LOGIN HEADER SLUT--------------------- */
