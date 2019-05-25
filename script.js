@@ -18,6 +18,6 @@ function toggleMenu() {
     if (erSkjult == true) {
         document.querySelector("#menuknap").textContent = "☰";
     } else {
-        document.querySelector("#menuknap").textContent = "x";
+        document.querySelector("#menuknap").textContent = "X";
     }
 }
