@@ -115,12 +115,13 @@ header nav a:hover {
 }
 
 nav {
-
+    height: 120px;
     padding: 0.5rem;
 }
 
 header {
     background-color: #EA5045;
+
 }
 
 header nav {
@@ -155,6 +156,50 @@ a {
     white-space: nowrap;
 }
 
+/* MEDIA QUERIES TIL BURGERMENU */
+
+@media only screen and (min-width: 600px) {
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+        text-align: right;
+    }
+
+    nav a {
+        text-align: right;
+    }
+
+
+    #footer .col {
+        flex-basis: 150px;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 400px) {
+
+    nav {
+        text-align: right;
+    }
+
+    #logo .sectionwrapper {
+        width: 405px;
+        height: 92px;
+
+    }
+
+}
 
 /* ---------------------BURGER MENU OG HEADER / NAV SLUT--------------------- */
 /* ---------------------LOGIN HEADER START-------------------------------- */
