@@ -51,9 +51,33 @@ body {
     cursor: pointer;
 }
 
-/* ---------------------Forside wrappers slut--------------------- */
+@media screen and (min-width: 380px) {
+    #sectionwrapper {
+        justify-content: center;
+    }
 
-/* ---------------------BURGER MENU OG HEADER / NAV--------------------- */
+    .flexwrapper {
+        flex: 0 0 26%;
+    }
+}
+
+@media screen and (min-width: 500px) {
+
+    .flexwrapper {
+        flex: 0 0 16%;
+    }
+}
+
+@media screen and (min-width: 850px) {
+
+    .flexwrapper {
+        flex: 0 0 11%;
+    }
+}
+
+/* ---------------------Forside wrappers slut----------------------------- */
+
+/* ---------------------BURGER MENU OG HEADER / NAV------------------------ */
 .hidden {
     transform: translateX(100%);
     opacity: 0;
@@ -133,7 +157,7 @@ a {
 
 
 /* ---------------------BURGER MENU OG HEADER / NAV SLUT--------------------- */
-/* ---------------------LOGIN HEADER START--------------------- */
+/* ---------------------LOGIN HEADER START-------------------------------- */
 #headerlogin {
     background-color: #EA5045;
     width: 100%;
@@ -199,9 +223,7 @@ button:hover {
     background-color: #EA5045;
 }
 
-placeholder {
-    color: aqua;
-}
+
 
 
 
