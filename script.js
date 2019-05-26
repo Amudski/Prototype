@@ -1,29 +1,11 @@
-window.addEventListener("load", sidenVises);
+// Javascript til burgermenu.
+function myFunction() {
 
+    let x = document.querySelector("#myLinks");
 
-
-//---------------------------------BURGER MENU----------------------
-function sidenVises() {
-    console.log("sidenVises");
-
-    document.querySelector("#menuknap").addEventListener("click", toggleMenu);
-
-
-}
-
-
-function toggleMenu() {
-    console.log("toggleMenu");
-    document.querySelector("#menu").classList.toggle("hidden");
-
-    let erSkjult = document.querySelector("#menu").classList.contains("hidden");
-
-    if (erSkjult == true) {
-        document.querySelector("#menuknap").textContent = "☰";
+    if (x.style.display === "block") {
+        x.style.display = "none";
     } else {
-        document.querySelector("#menuknap").textContent = "X";
+        x.style.display = "block";
     }
 }
-//---------------------------------BURGER MENU SLUT----------------------
-
-//---------------------------------LOGIN SKÆRM------------------------
