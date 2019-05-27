@@ -20,7 +20,7 @@ body {
 }
 
 
-/* ---------------------Forside wrappers--------------------- */
+/* ---------------------Forside/Index.html wrappers--------------------- */
 #sectionwrapper {
     display: flex;
     flex-wrap: wrap;
@@ -81,7 +81,7 @@ body {
     }
 }
 
-/* ---------------------Forside wrappers slut----------------------------- */
+/* ---------------------Forside/Index.html wrappers slut----------------------------- */
 
 /* ---------------------BURGER MENU------------------------ */
 
@@ -145,7 +145,7 @@ body {
 }
 
 /* ---------------------BURGER MENU--------------------- */
-/* ---------------------LOGIN HEADER START-------------------------------- */
+/* ---------------------LOGIN OG HEADER START-------------------------------- */
 #headerlogin {
     background-color: #EA5045;
     width: 100%;
@@ -271,4 +271,126 @@ span.psw {
     }
 }
 
-/* ---------------------LOGIN HEADER SLUT--------------------- */
+/* ---------------------LOGIN OG HEADER SLUT--------------------- */
+/* ---------------------SKEMA --------------------- */
+
+
+
+#sectionwrapper2 {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    /*    flex-basis: 100px;*/
+    flex-direction: column;
+
+}
+
+#sectionwrapper2 .flextop {
+    background-color: #DEDCDB;
+    flex-grow: 1;
+    flex-basis: 65px;
+}
+
+#sectionwrapper2 .flexmid {
+    background-color: #3F3140;
+    flex-grow: 1;
+    flex-basis: 60px;
+}
+
+#sectionwrapper2 .flexbot {
+    background-color: #FAF7F7;
+    flex-grow: 1;
+    flex-basis: 500px;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sectionwrapper2 .flexcontainer {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-grow: 1;
+    text-align: center;
+
+
+
+}
+
+#sectionwrapper2 .flexitemstor {
+    background-color: #F2F1F0;
+    flex-basis: 100px;
+    flex-grow: 1;
+    margin-right: 7px;
+}
+
+#sectionwrapper2 .flexitemlille {
+    background-color: white;
+    flex-basis: 5px;
+    flex-grow: 1;
+    color: #BCC5D3;
+    /*---------    SPØRGE ANDERS ELLER PETER............ HVORDAN CENTRERER JEG TEKST I EN DIV UDEN AT BRUGE PADDING?----------*/
+    padding: 10px 5px 10px 5px;
+}
+
+#sectionwrapper2 .flex1 {
+    margin-bottom: 2px;
+}
+
+#sectionwrapper2 .flex2 {
+    margin-bottom: 8px;
+}
+
+#sectionwrapper2 .flex3 {
+    margin-bottom: 2px;
+}
+
+#sectionwrapper2 .flex4 {
+    margin-bottom: 8px;
+}
+
+#sectionwrapper2 .flex5 {
+    margin-bottom: 2px;
+}
+
+#sectionwrapper2 .flex6 {
+    margin-bottom: 8px;
+}
+
+#sectionwrapper2 .flex7 {
+    margin-bottom: 2px;
+}
+
+#sectionwrapper2 .flex8 {}
+
+#sectionwrapper2 .lille1 {
+    margin-bottom: 2px;
+}
+
+#sectionwrapper2 .lille2 {
+    margin-bottom: 8px;
+}
+
+#sectionwrapper2 .lille3 {
+    margin-bottom: 2px;
+}
+
+#sectionwrapper2 .lille4 {
+    margin-bottom: 8px;
+}
+
+#sectionwrapper2 .lille5 {
+    margin-bottom: 2px;
+}
+
+#sectionwrapper2 .lille6 {
+    margin-bottom: 8px;
+}
+
+#sectionwrapper2 .lille7 {
+    margin-bottom: 2px;
+}
+
+#sectionwrapper2 .lille8 {}
+
+/* ---------------------SKEMA SLUT--------------------- */
