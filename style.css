@@ -19,6 +19,20 @@ body {
 
 }
 
+@font-face {
+    font-family: 'gibsonregular';
+    src: url('fonts/gibson-regular-webfont.woff2') format('woff2'),
+        url('fonts/gibson-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+p1 {
+    font-size: 1rem;
+    font-family: 'gibson';
+}
 
 /* ---------------------Forside/Index.html wrappers--------------------- */
 #sectionwrapper {
@@ -134,7 +148,7 @@ body {
 }
 
 .topnav a:hover {
-    background-color: #ddd;
+    /*    background-color: #ddd;*/
     color: black;
 }
 
@@ -211,11 +225,6 @@ button:hover {
     background-color: #EA5045;
 }
 
-
-
-
-
-
 /* Container styling */
 .container {
     padding: 16px;
@@ -289,6 +298,12 @@ span.psw {
     background-color: #DEDCDB;
     flex-grow: 1;
     flex-basis: 65px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
 }
 
 #sectionwrapper2 .flexmid {
@@ -312,9 +327,31 @@ span.psw {
     flex-direction: row-reverse;
     flex-grow: 1;
     text-align: center;
+}
 
+#sectionwrapper2 .skematekst {
+    flex-grow: 1;
+    flex-basis: 10px;
+    background-color: #DEDCDB;
+    text-align: left;
+    align-self: flex-start;
+    margin: 10px 0 0 10px;
+}
 
+#sectionwrapper2 .toptekst {
+    /*    margin-right: 5px;*/
+}
 
+#sectionwrapper2 .bottekst {}
+
+#sectionwrapper2 .tematekst {
+    flex-grow: 1;
+    flex-basis: 10px;
+    background-color: #DEDCDB;
+    align-self: flex-start;
+    text-align: right;
+    /*    --------------JEG BRUGER IGEN MARGIN TIL AT CENTRERER TING MED. HUSK AT SPØRG HVORDAN JEG ÆNDRER DETTE-------------*/
+    margin: 10px 10px 0 0;
 }
 
 #sectionwrapper2 .flexitemstor {
@@ -329,7 +366,7 @@ span.psw {
     flex-basis: 5px;
     flex-grow: 1;
     color: #BCC5D3;
-    /*---------    SPØRGE ANDERS ELLER PETER............ HVORDAN CENTRERER JEG TEKST I EN DIV UDEN AT BRUGE PADDING?----------*/
+    /*---------    SPØRGE ANDERS ELLER PETER............ HVORDAN CENTRERER JEG TEKST I EN DIV UDEN AT BRUGE PADDING SOM HER?----------*/
     padding: 10px 5px 10px 5px;
 }
 
