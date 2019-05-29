@@ -18,10 +18,11 @@ body {
     background-color: #FAF7F7;
 
 }
+
 @font-face {
     font-family: 'bruno_aceregular';
     src: url('fonts/bruno_ace_regular-webfont.woff2') format('woff2'),
-         url('fonts/bruno_ace_regular-webfont.woff') format('woff');
+        url('fonts/bruno_ace_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -30,7 +31,7 @@ body {
 @font-face {
     font-family: 'gibsonbold';
     src: url('fonts/gibson-bold-webfont.woff2') format('woff2'),
-         url('fonts/gibson-bold-webfont.woff') format('woff');
+        url('fonts/gibson-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -42,7 +43,7 @@ body {
 @font-face {
     font-family: 'gibsonbolditalic';
     src: url('fonts/gibson-bolditalic-webfont.woff2') format('woff2'),
-         url('fonts/gibson-bolditalic-webfont.woff') format('woff');
+        url('fonts/gibson-bolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -54,7 +55,7 @@ body {
 @font-face {
     font-family: 'gibsonregular';
     src: url('fonts/gibson-regular-webfont.woff2') format('woff2'),
-         url('fonts/gibson-regular-webfont.woff') format('woff');
+        url('fonts/gibson-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -66,7 +67,7 @@ body {
 @font-face {
     font-family: 'gibsonregularitalic';
     src: url('fonts/gibson-regularitalic-webfont.woff2') format('woff2'),
-         url('fonts/gibson-regularitalic-webfont.woff') format('woff');
+        url('fonts/gibson-regularitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -91,10 +92,13 @@ p3 {
 
 p4 {
     font-size: 1rem;
+    font-family: 'gibsonbold';
+}
 
-    font-family: 'gibsonbolditalic';
-
-
+p5 {
+    font-size: 0.7rem;
+    font-family: 'gibson';
+    color: #707070;
 }
 
 /* ---------------------Forside/Index.html wrappers--------------------- */
@@ -490,10 +494,12 @@ span.psw {
     flex-basis: 100px;
     flex-grow: 1;
     /*    margin-right: 7px;*/
+    /*
     word-wrap: break-word;
     overflow-x: hidden;
     overflow-y: hidden;
     white-space: nowrap;
+*/
     width: 10em;
     height: 3.5em;
     padding: 0.5em;
@@ -632,11 +638,56 @@ span.psw {
     p3 {
         font-size: 0.6rem;
     }
-    p4 {
-    font-size: 0.7rem;
 
-}
+    p4 {
+        font-size: 0.7rem;
+
+    }
 }
 
 
 /* ---------------------SKEMA SLUT--------------------- */
+
+/*-----------------------------------MATERIALER START--------------------------*/
+
+#sectionwrapper2 .flexbot2 {
+    background-color: #FAF7F7;
+    flex-grow: 1;
+    flex-basis: 500px;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.flexbotskema {
+    flex-grow: 1;
+    flex-basis: 50px;
+    background-color: #F2F1F0;
+    padding: 0.5em;
+
+}
+
+.flexbotskema1 {
+    margin: 8px;
+}
+
+.flexbotskema2 {
+    margin: 0 8px 8px 8px;
+}
+
+.flexbotskema3 {
+    margin: 0 8px 8px 8px;
+}
+
+.flexbotskema4 {
+    margin: 0 8px 8px 8px;
+}
+
+.flexbotskema5 {
+    margin: 0 8px 8px 8px;
+}
+
+.flexbotskema6 {
+    margin: 0 8px 8px 8px;
+}
