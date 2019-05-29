@@ -7,8 +7,8 @@ img {
 .topnav img {
     height: 20px;
     width: 40px;
-
 }
+
 
 * {
     box-sizing: border-box;
@@ -32,6 +32,21 @@ body {
 p1 {
     font-size: 1rem;
     font-family: 'gibson';
+    color: #707070;
+}
+
+p2 {}
+
+p3 {
+    font-size: 1.3rem;
+    font-family: 'gibson';
+    color: white;
+}
+
+p4 {
+    font-size: 1rem;
+    font-family: 'gibson';
+
 }
 
 /* ---------------------Forside/Index.html wrappers--------------------- */
@@ -48,8 +63,6 @@ p1 {
     justify-content: center;
     align-items: stretch;
     padding: 0.3rem;
-
-    /*    box-sizing: border-box;*/
 }
 
 .flexitem:before {
@@ -65,6 +78,12 @@ p1 {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    /*
+    flex-direction: column;
+    flex-wrap: wrap;
+
+*/
 }
 
 .cursor {
@@ -148,7 +167,7 @@ p1 {
 }
 
 .topnav a:hover {
-    /*    background-color: #ddd;*/
+    background-color: #ddd;
     color: black;
 }
 
@@ -291,6 +310,8 @@ span.psw {
     flex-wrap: wrap;
     /*    flex-basis: 100px;*/
     flex-direction: column;
+    max-width: 270px;
+    /*    min-width: 270px;*/
 
 }
 
@@ -310,6 +331,13 @@ span.psw {
     background-color: #3F3140;
     flex-grow: 1;
     flex-basis: 60px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
 }
 
 #sectionwrapper2 .flexbot {
@@ -326,7 +354,8 @@ span.psw {
     display: flex;
     flex-direction: row-reverse;
     flex-grow: 1;
-    text-align: center;
+
+
 }
 
 #sectionwrapper2 .skematekst {
@@ -339,7 +368,7 @@ span.psw {
 }
 
 #sectionwrapper2 .toptekst {
-    /*    margin-right: 5px;*/
+    margin-bottom: 5px;
 }
 
 #sectionwrapper2 .bottekst {}
@@ -354,20 +383,82 @@ span.psw {
     margin: 10px 10px 0 0;
 }
 
+#sectionwrapper2 .flexleft {
+    flex-basis: 10px;
+    flex-grow: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15%;
+    align-self: center;
+    text-align: center;
+    margin: 20px;
+
+}
+
+#sectionwrapper2 .flexmiddle {
+    flex-basis: 10px;
+    flex-grow: 1;
+    align-self: center;
+    text-align: center;
+
+
+}
+
+#sectionwrapper2 .flexright {
+    flex-basis: 10px;
+    flex-grow: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15%;
+    margin: 20px;
+    align-self: center;
+    text-align: center;
+
+}
+
+
+#sectionwrapper2 .flexright img {
+    background-size: 100%;
+    width: 40px;
+    height: 25px;
+
+}
+
+#sectionwrapper2 .flexleft img {
+    background-size: 100%;
+    width: 40px;
+    height: 25px;
+
+}
+
 #sectionwrapper2 .flexitemstor {
     background-color: #F2F1F0;
+
     flex-basis: 100px;
     flex-grow: 1;
-    margin-right: 7px;
+    /*    margin-right: 7px;*/
+    word-wrap: break-word;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 10em;
+    height: 3.5em;
+    padding: 0.5em;
 }
 
 #sectionwrapper2 .flexitemlille {
     background-color: white;
+
     flex-basis: 5px;
     flex-grow: 1;
     color: #BCC5D3;
     /*---------    SPØRGE ANDERS ELLER PETER............ HVORDAN CENTRERER JEG TEKST I EN DIV UDEN AT BRUGE PADDING SOM HER?----------*/
     padding: 10px 5px 10px 5px;
+    align-self: center;
+    text-align: center;
+    max-width: 85px;
+
+
 }
 
 #sectionwrapper2 .flex1 {
@@ -402,6 +493,7 @@ span.psw {
 
 #sectionwrapper2 .lille1 {
     margin-bottom: 2px;
+
 }
 
 #sectionwrapper2 .lille2 {
@@ -414,6 +506,7 @@ span.psw {
 
 #sectionwrapper2 .lille4 {
     margin-bottom: 8px;
+
 }
 
 #sectionwrapper2 .lille5 {
@@ -429,5 +522,65 @@ span.psw {
 }
 
 #sectionwrapper2 .lille8 {}
+
+@media screen and (min-width: 0px) and (max-width: 255px) {
+    #sectionwrapper2 {}
+
+    body {
+        margin: 0;
+    }
+
+    #sectionwrapper2 .flexitemlille {}
+
+    p1 {
+        font-size: 0.8rem;
+    }
+
+    p3 {
+        font-size: 1rem;
+    }
+
+    #sectionwrapper2 .flexright img {
+        background-size: 100%;
+        width: 30px;
+        height: 15px;
+
+    }
+
+    #sectionwrapper2 .flexleft img {
+        background-size: 100%;
+        width: 30px;
+        height: 15px;
+
+    }
+}
+
+
+@media screen and (max-width: 255px) {
+    #sectionwrapper2 .flexright img {
+        background-size: 100%;
+        width: 25px;
+        height: 10px;
+
+
+    }
+
+    #sectionwrapper2 .flexleft img {
+        background-size: 100%;
+        width: 25px;
+        height: 10px;
+
+    }
+
+    p1 {
+        font-size: 0.8rem;
+    }
+
+    p3 {
+        font-size: 0.6rem;
+    }
+
+}
+
 
 /* ---------------------SKEMA SLUT--------------------- */
