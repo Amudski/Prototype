@@ -18,11 +18,55 @@ body {
     background-color: #FAF7F7;
 
 }
+@font-face {
+    font-family: 'bruno_aceregular';
+    src: url('fonts/bruno_ace_regular-webfont.woff2') format('woff2'),
+         url('fonts/bruno_ace_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gibsonbold';
+    src: url('fonts/gibson-bold-webfont.woff2') format('woff2'),
+         url('fonts/gibson-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gibsonbolditalic';
+    src: url('fonts/gibson-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/gibson-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
 
 @font-face {
     font-family: 'gibsonregular';
     src: url('fonts/gibson-regular-webfont.woff2') format('woff2'),
-        url('fonts/gibson-regular-webfont.woff') format('woff');
+         url('fonts/gibson-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gibsonregularitalic';
+    src: url('fonts/gibson-regularitalic-webfont.woff2') format('woff2'),
+         url('fonts/gibson-regularitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -35,7 +79,9 @@ p1 {
     color: #707070;
 }
 
-p2 {}
+p2 {
+    font-family: 'bruno_aceregular';
+}
 
 p3 {
     font-size: 1.3rem;
@@ -45,7 +91,9 @@ p3 {
 
 p4 {
     font-size: 1rem;
-    font-family: 'gibson';
+
+    font-family: 'gibsonbolditalic';
+
 
 }
 
@@ -119,6 +167,10 @@ p4 {
 /* ---------------------BURGER MENU------------------------ */
 
 
+.topnav .active {
+    font-family: 'bruno_aceregular';
+    color: white;
+}
 
 .active {
     background-color: #EA5045;
@@ -149,12 +201,13 @@ p4 {
 }
 
 .topnav a {
-    color: white;
+    color: #F58E81;
 
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
+    font-family: 'gibsonregular';
 }
 
 .topnav a.icon {
@@ -579,7 +632,10 @@ span.psw {
     p3 {
         font-size: 0.6rem;
     }
+    p4 {
+    font-size: 0.7rem;
 
+}
 }
 
 
