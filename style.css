@@ -101,6 +101,7 @@ p5 {
     color: #707070;
 }
 
+
 /* ---------------------Forside/Index.html wrappers--------------------- */
 #sectionwrapper {
     display: flex;
@@ -206,7 +207,6 @@ p5 {
 
 .topnav a {
     color: #F58E81;
-
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -228,6 +228,13 @@ p5 {
     color: black;
 }
 
+.topnav .flex a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 25px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
 
 .hidden {
     transform: translateX(100%);
@@ -582,7 +589,64 @@ span.psw {
 
 #sectionwrapper2 .lille8 {}
 
-@media screen and (min-width: 0px) and (max-width: 255px) {
+@media screen and (min-width: 0px) and (max-width: 165px) {
+    #sectionwrapper2 .flexright {
+        padding-top: 20px;
+        margin: 0;
+
+    }
+
+    #sectionwrapper2 .flexleft {
+        padding-top: 20px;
+        margin: 0;
+    }
+
+    p1 {
+        font-size: 0.8rem;
+    }
+
+    p3 {
+        font-size: 0.6rem;
+    }
+
+    p4 {
+        font-size: 0.7rem;
+
+    }
+
+
+    body {
+        margin: 0;
+    }
+
+    #sectionwrapper2 .flexitemlille {}
+
+    p1 {
+        font-size: 0.8rem;
+    }
+
+    p3 {
+        font-size: 1rem;
+    }
+
+    #sectionwrapper2 .flexright img {
+        background-size: 100%;
+        width: 30px;
+        height: 15px;
+        margin: 5px;
+    }
+
+    #sectionwrapper2 .flexleft img {
+        background-size: 100%;
+        width: 30px;
+        height: 15px;
+        margin: 5px;
+    }
+
+}
+
+
+@media screen and (min-width: 162px) and (max-width: 255px) {
     #sectionwrapper2 {}
 
     body {
@@ -612,10 +676,15 @@ span.psw {
         height: 15px;
 
     }
+
+
+
 }
 
 
-@media screen and (max-width: 255px) {
+@media screen and (min-width: 165px) and (max-width: 270px) {
+
+
     #sectionwrapper2 .flexright img {
         background-size: 100%;
         width: 25px;
@@ -643,6 +712,8 @@ span.psw {
         font-size: 0.7rem;
 
     }
+
+
 }
 
 
@@ -691,3 +762,74 @@ span.psw {
 .flexbotskema6 {
     margin: 0 8px 8px 8px;
 }
+
+/*--------------------------------MATERIALER SLUT--------------------*/
+
+/*-----------------------TOPNAV KALENDER MENU------------------------*/
+.topnavskema .activeskema {
+    font-family: 'bruno_aceregular';
+    color: white;
+
+}
+
+.activeskema {
+    background-color: #EA5045;
+    color: white;
+
+}
+
+.topnavskema {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+.flexskema {
+    flex-wrap: wrap;
+    display: flex;
+    /*    padding: 10px;*/
+    flex-direction: row;
+}
+
+.flexskema a {
+    align-self: center;
+
+}
+
+.topnavskema #myLinksskema {
+    display: none;
+    background-color: #3F3140;
+}
+
+.flexskema a {
+    color: #F58E81;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    font-family: 'gibsonregular';
+}
+
+.flexmiddle a {
+    text-decoration: none;
+}
+
+.topnavskema a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnavskema .flexskema a:hover {
+    background-color: #FAF7F7;
+    color: black;
+    border-radius: 25px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.hidden {
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+/*-----------------------TOPNAV KALENDER MENU SLUT------------------------*/
