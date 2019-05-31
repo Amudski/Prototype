@@ -101,8 +101,13 @@ p5 {
     color: #707070;
 }
 
+p6 {
+    font-size: 0.8rem;
+    font-family: 'gibson';
+    color: white;
+}
 
-/* ---------------------Forside/Index.html wrappers--------------------- */
+/* ---------------------------------------Forside/Index.html wrappers--------------------------------------- */
 #sectionwrapper {
     display: flex;
     flex-wrap: wrap;
@@ -131,12 +136,6 @@ p5 {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /*
-    flex-direction: column;
-    flex-wrap: wrap;
-
-*/
 }
 
 .cursor {
@@ -167,9 +166,9 @@ p5 {
     }
 }
 
-/* ---------------------Forside/Index.html wrappers slut----------------------------- */
+/* ------------------------------------Forside/Index.html wrappers slut----------------------------- */
 
-/* ---------------------BURGER MENU------------------------ */
+/* -------------------------------------BURGER MENU------------------------------------------------- */
 
 
 .topnav .active {
@@ -197,7 +196,6 @@ p5 {
 
 .flex a {
     align-self: center;
-
 }
 
 .topnav #myLinks {
@@ -219,8 +217,6 @@ p5 {
     position: absolute;
     right: 0;
     top: 0;
-
-
 }
 
 .topnav a:hover {
@@ -241,8 +237,8 @@ p5 {
     opacity: 0;
 }
 
-/* ---------------------BURGER MENU--------------------- */
-/* ---------------------LOGIN OG HEADER START-------------------------------- */
+/* ------------------------------------BURGER MENU---------------------------------------- */
+/* -----------------------------------LOGIN OG HEADER START-------------------------------- */
 #headerlogin {
     background-color: #EA5045;
     width: 100%;
@@ -265,13 +261,8 @@ p5 {
     flex-wrap: wrap;
     justify-content: flex-start;
     background-color: #FAF7F7;
-
 }
 
-
-
-
-/* Input styling */
 input[type=text],
 input[type=password] {
     width: 100%;
@@ -284,7 +275,7 @@ input[type=password] {
     color: #EA5045;
 }
 
-/* Styling af knapper */
+
 button {
     background-color: #EA5045;
     color: white;
@@ -296,19 +287,19 @@ button {
     border-radius: 50px;
 }
 
-/* Hover effect */
+
 button:hover {
     opacity: 0.8;
 }
 
-/* Click here styling */
+
 .cancelbtn {
     width: auto;
     padding: 10px 18px;
     background-color: #EA5045;
 }
 
-/* Container styling */
+
 .container {
     padding: 16px;
 }
@@ -321,17 +312,16 @@ button:hover {
 
 }
 
-/* Glemt password tekst */
+
 span.psw {
     float: right;
     padding-top: 16px;
     margin-left: 10px;
     margin-right: 10px;
     color: #EA5045;
-
 }
 
-/* Media query */
+
 @media screen and (max-width: 300px) {
     span.psw {
         display: block;
@@ -359,7 +349,6 @@ span.psw {
         flex-direction: column;
         display: flex;
         flex-wrap: wrap;
-
     }
 }
 
@@ -372,11 +361,8 @@ span.psw {
     background-color: aqua;
     display: flex;
     flex-wrap: wrap;
-    /*    flex-basis: 100px;*/
     flex-direction: column;
     max-width: 270px;
-    /*    min-width: 270px;*/
-
 }
 
 #sectionwrapper2 .flextop {
@@ -387,8 +373,6 @@ span.psw {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-
-
 }
 
 #sectionwrapper2 .flexmid {
@@ -400,8 +384,6 @@ span.psw {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
-
 }
 
 #sectionwrapper2 .flexbot {
@@ -413,13 +395,31 @@ span.psw {
     flex-wrap: wrap;
 }
 
+#sectionwrapper2 .materialegenvej {
+    flex-grow: 1;
+    flex-basis: 30px;
+    background-color: #3F3140;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#sectionwrapper2 .materialegenvejchild {
+    flex-basis: 10px;
+    flex-grow: 1;
+}
+
 #sectionwrapper2 .flexcontainer {
     flex-wrap: wrap;
     display: flex;
     flex-direction: row-reverse;
     flex-grow: 1;
+}
 
-
+#sectionwrapper2 a {
+    text-decoration: none;
 }
 
 #sectionwrapper2 .skematekst {
@@ -443,7 +443,6 @@ span.psw {
     background-color: #DEDCDB;
     align-self: flex-start;
     text-align: right;
-    /*    --------------JEG BRUGER IGEN MARGIN TIL AT CENTRERER TING MED. HUSK AT SPØRG HVORDAN JEG ÆNDRER DETTE-------------*/
     margin: 10px 10px 0 0;
 }
 
@@ -456,7 +455,6 @@ span.psw {
     align-self: center;
     text-align: center;
     margin: 20px;
-
 }
 
 #sectionwrapper2 .flexmiddle {
@@ -464,8 +462,6 @@ span.psw {
     flex-grow: 1;
     align-self: center;
     text-align: center;
-
-
 }
 
 #sectionwrapper2 .flexright {
@@ -477,7 +473,6 @@ span.psw {
     margin: 20px;
     align-self: center;
     text-align: center;
-
 }
 
 
@@ -485,28 +480,18 @@ span.psw {
     background-size: 100%;
     width: 40px;
     height: 25px;
-
 }
 
 #sectionwrapper2 .flexleft img {
     background-size: 100%;
     width: 40px;
     height: 25px;
-
 }
 
 #sectionwrapper2 .flexitemstor {
     background-color: #F2F1F0;
-
     flex-basis: 100px;
     flex-grow: 1;
-    /*    margin-right: 7px;*/
-    /*
-    word-wrap: break-word;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    white-space: nowrap;
-*/
     width: 10em;
     height: 3.5em;
     padding: 0.5em;
@@ -514,11 +499,9 @@ span.psw {
 
 #sectionwrapper2 .flexitemlille {
     background-color: white;
-
     flex-basis: 5px;
     flex-grow: 1;
     color: #BCC5D3;
-    /*---------    SPØRGE ANDERS ELLER PETER............ HVORDAN CENTRERER JEG TEKST I EN DIV UDEN AT BRUGE PADDING SOM HER?----------*/
     padding: 10px 5px 10px 5px;
     align-self: center;
     text-align: center;
@@ -717,7 +700,7 @@ span.psw {
 }
 
 
-/* ---------------------SKEMA SLUT--------------------- */
+/* -----------------------------------SKEMA SLUT---------------------------------- */
 
 /*-----------------------------------MATERIALER START--------------------------*/
 
@@ -739,33 +722,27 @@ span.psw {
 
 }
 
-.flexbotskema1 {
-    margin: 8px;
-}
+.flexbotskema1 {}
 
 .flexbotskema2 {
-    margin: 0 8px 8px 8px;
+    margin: 8px 0 8px 0px;
 }
 
-.flexbotskema3 {
-    margin: 0 8px 8px 8px;
-}
+.flexbotskema3 {}
 
 .flexbotskema4 {
-    margin: 0 8px 8px 8px;
+    margin: 8px 0 8px 0px;
 }
 
-.flexbotskema5 {
-    margin: 0 8px 8px 8px;
-}
+.flexbotskema5 {}
 
 .flexbotskema6 {
-    margin: 0 8px 8px 8px;
+    margin: 8px 0 0px 0px;
 }
 
-/*--------------------------------MATERIALER SLUT--------------------*/
+/*--------------------------------MATERIALER SLUT----------------------------*/
 
-/*-----------------------TOPNAV KALENDER MENU------------------------*/
+/*-----------------------------TOPNAV KALENDER MENU--------------------------*/
 .topnavskema .activeskema {
     font-family: 'bruno_aceregular';
     color: white;
